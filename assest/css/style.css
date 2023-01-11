@@ -1,0 +1,50 @@
+
+
+body{
+	background-color:rgb(223, 194, 221);
+}
+menu{
+	float:right;
+}
+
+nav {
+	font-family:Times New Roman;
+	width: 100%;
+	margin:auto;
+	display:flex;
+	line-height: 70px;
+	position:sticky;
+	position:-webkit-sticky;
+	top: 0px;
+	background:rgb(153, 91, 153);
+	
+}
+
+nav ul {
+    
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+nav ul li {
+	float:left;
+}
+
+
+nav ul li a {
+
+
+	color:white;
+	font-weight:bold;
+	padding: 0px 50px 0px 50px;
+	
+}
+
+
+nav ul li a:hover {
+
+	text-decoration:underline;
+	color:red;
+}
